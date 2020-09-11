@@ -133,7 +133,7 @@ class TitleView(arcade.View):
         self.background = None
         # play intro song
         self.title_sound = arcade.load_sound("intro.wav")
-        # arcade.play_sound(self.title_sound)
+        arcade.play_sound(self.title_sound)
 
     def setup(self):
         self.background = arcade.load_texture("background.png")
